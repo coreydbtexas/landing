@@ -771,10 +771,7 @@ p {
       border: 1px solid #06050a;
       margin-left: 40px;
       padding-left: 9px;
-      padding-right: 9px; }
-    .footer__text {
-      top: 0px;
-      } }
+      padding-right: 9px; }}
 
 .features {
   background-color: #686969;
@@ -1345,12 +1342,6 @@ p {
   .carousel__text {
     font-size: 24px; } }
 
-@media (max-width: 375px) {
-  .carousel__item-block {
-    padding-top: 160px; }
-  .carousel__item-2 .carousel__item-block {
-    padding-top: 185px; } }
-
 .footer {
   background-color: #06050a;
   color: #ffffff;
@@ -1370,6 +1361,14 @@ p {
     top: -15px; }
   .footer__img {
     padding-top: 20px; }
+
+@media (max-width: 375px) {
+  .carousel__item-block {
+    padding-top: 160px; }
+  .carousel__item-2 .carousel__item-block {
+    padding-top: 185px; }
+  .footer__text {
+    top: 0px;}  }
 
 @media (max-width: 1450px) {
   .footer__wrapper {
