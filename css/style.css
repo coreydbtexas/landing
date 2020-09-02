@@ -1664,7 +1664,7 @@ p {
   .swiper-container-carousel .swiper-pagination-bullets {
     bottom: 10px;} }
 
-@media (min-width: 1600px) {
+@media (min-width: 1630px) {
   .promo1__video {
     margin-right: calc((100vw - (1500px - 40px))/2 - 55px);
     } }
