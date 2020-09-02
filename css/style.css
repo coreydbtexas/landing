@@ -429,7 +429,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-width: 325px;
+  min-width: 375px;
   font-size: 28px;
   margin: 0 auto;
   font-size: 16px; }
@@ -762,15 +762,19 @@ p {
       padding-left: 15px;
       padding-right: 15px; } }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
   .header {
     padding: 0; }
     .header__link-item {
       font-size: 13px;
       background-image: none;
       border: 1px solid #06050a;
+      margin-left: 40px;
       padding-left: 9px;
-      padding-right: 9px; } }
+      padding-right: 9px; }
+    .footer__text {
+      top: 0px;
+      } }
 
 .features {
   background-color: #686969;
@@ -1341,7 +1345,7 @@ p {
   .carousel__text {
     font-size: 24px; } }
 
-@media (max-width: 325px) {
+@media (max-width: 375px) {
   .carousel__item-block {
     padding-top: 160px; }
   .carousel__item-2 .carousel__item-block {
