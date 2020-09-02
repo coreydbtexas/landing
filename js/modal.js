@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var modalButtons = document.querySelectorAll(".js-open-modal"),
         overlay = document.querySelector(".js-overlay-modal");
-    //    closeButtons = document.querySelectorAll('.js-modal-close');
 
     modalButtons.forEach(function (item) {
         item.addEventListener("click", function (e) {
@@ -19,40 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    //    closeButtons.forEach(function(item){
-
-    //       item.addEventListener('click', function(e) {
-    //          var parentModal = this.closest('.modal');
-
-    //          parentModal.classList.remove('active');
-    //          overlay.classList.remove('active');
-
-    //          document.body.style.overflow = 'auto';
-    //       });
-
-    //    }); // end foreach
-
-    document.body.addEventListener(
-        "keyup",
-        function (e) {
-            var key = e.keyCode;
-
-            if (key == 27) {
-                document
-                    .querySelector(".modal.active")
-                    .classList.remove("active");
-                overlay.classList.remove("active");
-
-                document.body.style.overflow = "auto";
-            }
-        },
-        false
-    );
-
     overlay.addEventListener("click", function () {
         document.querySelector(".modal.active").classList.remove("active");
         this.classList.remove("active");
 
         document.body.style.overflow = "auto";
     });
-}); // end ready
+});
