@@ -1927,12 +1927,9 @@ p {
   .carousel__item-2 .carousel__item-block {
     padding-top: 185px;
   }
-  .footer__text {
-    top: 0px;
-    padding: 5px
-  }
   .footer__wrapper {
     text-align: center;
+    padding: : 0;
   }
 }
 
