@@ -1920,19 +1920,6 @@ p {
   padding-top: 20px;
 }
 
-@media (max-width: 375px) {
-  .carousel__item-block {
-    padding-top: 160px;
-  }
-  .carousel__item-2 .carousel__item-block {
-    padding-top: 185px;
-  }
-  .footer__wrapper {
-    text-align: center;
-    padding: : 0;
-  }
-}
-
 @media (max-width: 1450px) {
   .footer__wrapper {
     padding-left: 85px;
@@ -1954,6 +1941,19 @@ p {
   }
   .footer__wrapper {
     padding-left: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel__item-block {
+    padding-top: 160px;
+  }
+  .carousel__item-2 .carousel__item-block {
+    padding-top: 185px;
+  }
+  .footer__wrapper {
+    text-align: center;
+    padding: : 0;
   }
 }
 
